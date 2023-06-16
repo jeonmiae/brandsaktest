@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+#bg1{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+#logoContainer{
+    width: 1080px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logoImg{
+    display: flex;
+    align-items: center;
+}
+
+#cart{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#slogan{
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 13px;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 50px;
+    width: 1080px;
+    height: 2080px;
+    color: antiquewhite;
+}
